@@ -8,11 +8,12 @@
     padding: 0px 250px;
 }
 
-.one {
+.section.one {
     background-color: #1F2937;
+    padding-bottom: 150px;
 }
 
-.one .top {
+.section.one .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,15 +21,49 @@
     padding-bottom: 150px;
 }
 
-.one .bottom {
+.section.one .bottom {
     display: flex;
     gap: 40px;
 }
 
-.one .bottom .left {
+.section.one .bottom .left {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.section.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 125px;
+}
+
+.section.two .information-header-text {
+    padding: 50px;
+}
+
+.round-placeholders {
+    display: flex;
+    gap: 50px;
+}
+
+.round-placeholder {
+    border: solid 5px #3882F6;
+    border-radius: 10px;
+    width: 175px;
+    height: 175px;    
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group .hero-secondary-text {
+    text-align: center;
+    width: 175px;
 }
 
 .placeholder {
@@ -46,12 +81,21 @@
     gap: 20px;
 }
 
-.three {
+.section.three {
     background-color: #E5E7EB;
+    padding: 100px 325px;
 }
 
-.four {
+.section.three .hero-secondary-text {
+    text-align: end;
+    margin-right: 50px;
+}
+
+.section.four {
     background-color: #3882F6;
+    margin: 100px 250px;
+    border-radius: 10px;
+    display: flex
 }
 
 .hero-main-text {
@@ -73,7 +117,7 @@
 button {
     display: flex;
     flex: none;
-    width: 125px;
+    width: 155px;
     height: 40px;
     justify-content: center;
     align-items: center;
@@ -90,7 +134,7 @@ button {
 
 .quote-text {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
     color: #1F2937;
 }
